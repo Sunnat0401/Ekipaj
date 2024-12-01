@@ -8,7 +8,7 @@ const Footer = () => {
         <img className='footer-logo' src={Logo} alt="logo" />
         <div className='footer-lists'>
             <ul className="footer-lists">
-                <li className="footer-list">fd</li>
+                <li className="footer-list">Manzil</li>
                 <li className="footer-list">ds</li>
                 <li className="footer-list">fds</li>
             </ul>
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
         <div className='footer-items'>
             <ul className="footer-item">
-                <li className="footer-subline">ff</li>
+                <li className="footer-subline">kontakt</li>
                 <li className="footer-subline"></li>
                 <li className="footer-subline"></li>
             </ul>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <div className='footer-sublinks'>
             <ul>
-                <li><a href="" className="footer-icons">f</a></li>
+                <li><a href="" className="footer-icons">links</a></li>
                 <li><a href="" className="footer-icons">f</a></li>
                 <li><a href="" className="footer-icons">f</a></li>
                 <li><a href="" className="footer-icons"></a></li>

@@ -4,6 +4,7 @@ import Home from './Page/Home/Home'
 import About from './Page/About/About'
 import Services from './Page/Services/Services'
 import Footer from './Components/Footer/Footer'
+import Forms from './Components/Forms/Forms'
 
 const App = () => {
   return (
@@ -12,8 +13,10 @@ const App = () => {
       <Home/>
       <About/>
       <Services/>
+      <Forms/>
       <Footer/>
     </div>
+
   )
 }
 
