@@ -1,5 +1,5 @@
 export {default as Logo} from './ekipajj.jpg'
-export {default as HomeImage} from './homeImage.jpg'
+export {default as HomeImage} from './logotipe.jpg'
 export {default as AboutImage1} from './about1.png'
 export {default as AboutImage2} from './about2.png'
 export {default as AboutImage3} from './about3.png'
