@@ -50,7 +50,7 @@ const Forms = () => {
   };
 
   return (
-    <div className='form'>
+    <div className='form' id='contact'>
       <div className='container'>
         <div className="form-left">
           <h3 className='form-title'>Biz bilan bog'laning!</h3>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='container'>
-        <img className='footer-logo' src={Logo} alt="logo" />
+       <a href="#"> <img className='footer-logo' src={Logo} alt="logo" /></a>
         <div className='footer-lists'>
             <ul className="footer-lists">
                 <li className="footer-list">Manzil</li>

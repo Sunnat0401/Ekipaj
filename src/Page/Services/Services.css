@@ -44,6 +44,7 @@
     padding: 20px 10px 0px ; 
 }
 .services-button {
+    display: inline-block;
     width: 120px;
     height: 30px;
     color: #fff;
@@ -62,11 +63,27 @@
     font-size: 15px;
     color: #ffffff;
 }
+.services-button .services-anchor{
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+    position: relative;
+    outline: none;
+    background: #B32128;
+    border: 1px solid  #B32128  ;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #ffffff
+}
 .services-button:hover{
     background-color: #fff;
 }
-.services-button:hover{
+.services-button:hover .services-anchor{
     color: #B32128;
+    background-color: #ffffff;
+    border: none;
 }
 .service-icons {
     width: 50px;

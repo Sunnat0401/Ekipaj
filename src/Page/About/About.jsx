@@ -12,7 +12,7 @@ const About = () => {
   const [counterOn4, setCounterOn4] = useState(false);
 
   return (
-    <div className='about'>
+    <div className='about'   id='about' >
       <div className='container'>
         <div className="about-card">
           <img className='about-images' src={AboutImage1} alt="" />
