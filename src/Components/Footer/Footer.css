@@ -1,10 +1,139 @@
-
+.footer{
+    width: 100%;
+    height:200px;
+    padding: 40px 0px;
+}
 .footer .container{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 .footer-logo{
     width: 220px;
     height: 80px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
+.footer-logo:hover{
+    transform: scale(1.07);
+}
+.footer-list{
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-lists{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer-lists:hover{
+    color: #B32128;
+}
+.footer-item:first-child{
+    padding-bottom: 10px;
+}
+.footer-subline.active{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transition: transform 0.5s ease-in-out; /* Qo'shimcha animatsiya */
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.footer-subline.active:hover{
+    color: #B32128;
+}
+.footer-subline{
+    padding-top: 10px;
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    line-height: 18x;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.footer-subline:hover{
+    color: #B32128;
+}
+
+.footer-phone {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out; /* Animatsiya */
+}
+.footer-phone:hover{
+    color: #B32128;
+}
+.footer-subline:hover .footer-phone {
+    transform: rotate(360deg); /* To'liq aylanish */
+}
+.footer-iconic{
+    font-family: "Inter" , sans-serif;
+    font-size: 16px;
+    color: #000000;
+transition: all 0.3s ease;
+}
+.footer-iconic:hover{
+color: #B32128;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-iconics{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+.footer-iconics:hover{
+    transform: scale(1.07);
+}
+.footer-iconics.insta{
+ color: #E1306C;   
+}
+.footer-iconics.link{
+    color: #0077B5;
+}
+.footer-iconics.you{
+    color: #282828;
+    width: 35px;
+    margin: 0 auto;
+}
+.footer-iconics.tel{
+    color: #0077B5;
+    width: 60px;
+}
+.footer-module{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding: 40px 0px;
+    justify-content: center;
+}
+.footer-modules {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px; /* Ikki rasm orasidagi masofa */
+    margin-left: 10px;
+}
+
+.footer-modules .footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-modules .footer-icons.tel {
+    margin-left: 20px !important; 
+}
+
